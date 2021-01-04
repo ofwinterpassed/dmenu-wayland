@@ -42,16 +42,16 @@ struct {
 
 const char *progname;
 
-static uint32_t color_bg = 0x222222ff;
+static uint32_t color_bg = 0x282828ff;
 static uint32_t color_fg = 0xbbbbbbff;
-static uint32_t color_input_bg = 0x222222ff;
+static uint32_t color_input_bg = 0x282828ff;
 static uint32_t color_input_fg = 0xbbbbbbff;
 static uint32_t color_prompt_bg = 0x005577ff;
 static uint32_t color_prompt_fg = 0xeeeeeeff;
-static uint32_t color_selected_bg = 0x005577ff;
+static uint32_t color_selected_bg = 0x550000ff;
 static uint32_t color_selected_fg = 0xeeeeeeff;
 
-static int32_t panel_height = 20;
+static int32_t panel_height = 24;
 
 static void appenditem(Item *item, Item **list, Item **last);
 static char *fstrstr(const char *s, const char *sub);
